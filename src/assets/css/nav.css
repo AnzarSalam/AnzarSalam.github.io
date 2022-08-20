@@ -1,0 +1,30 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-color);
+}
+
+.nav-logo {
+    height: 35px;
+    margin: 5px 10px 5px 35px;
+}
+
+.nav-right {
+    margin-right: 50px;
+}
+
+.nav-item-wrapper {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    margin: 0px 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--light-shade);
+    font-weight: 700;
+}
